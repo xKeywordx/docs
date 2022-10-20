@@ -169,6 +169,7 @@ module.exports = {
                             '/operations/solana/',
                             '/operations/solana/networks',
                             '/operations/solana/types',
+                            '/operations/solana/modes',
                             '/operations/solana/tools',
                         ]
                     },
@@ -182,6 +183,17 @@ module.exports = {
                             '/operations/gnosis/modes',
                             '/operations/gnosis/debug-and-trace-apis',
                             '/operations/gnosis/tools',
+                        ]
+                    },
+                    {
+                        title: 'Cronos',
+                        collapsable: true,
+                        children: [
+                            '/operations/cronos/',
+                            '/operations/cronos/networks',
+                            '/operations/cronos/types',
+                            '/operations/cronos/modes',
+                            '/operations/cronos/tools',
                         ]
                     },
                     {
@@ -370,6 +382,14 @@ module.exports = {
                         children: [
                             '/tutorials/gnosis/',
                             '/tutorials/gnosis/simple-soulbound-token-with-remix-and-openzeppelin',
+                        ]
+                    },
+                    {
+                        title: 'Cronos',
+                        collapsable: true,
+                        children: [
+                            '/tutorials/cronos/',
+                            '/tutorials/cronos/nft-dutch-auction-contract-with-hardhat',
                         ]
                     },
                     {
@@ -623,6 +643,35 @@ module.exports = {
               "api/arbitrum/web3js-subscriptions",
             ],
           },
+          {
+            title: "Solana API",
+            collapsable: true,
+            children: [
+              "api/solana/solana-api-reference",
+              "api/solana/getaccountinfo",
+              "api/solana/getbalance",
+              "api/solana/getblock",
+              "api/solana/getblockheight",
+              "api/solana/getblockproduction",
+              "api/solana/getblocks",
+              "api/solana/getblocktime",
+              "api/solana/getepochinfo",
+              "api/solana/gethealth",
+              "api/solana/getidentity",
+              "api/solana/getlatestblockhash",
+              "api/solana/getslot",
+              "api/solana/getslotleader",
+              "api/solana/gettransaction",
+              "api/solana/gettransactioncount",
+              "api/solana/websocket-subscriptions",
+              "api/solana/accountsubscribe",
+              "api/solana/accountunsubscribe",
+              "api/solana/logssubscribe",
+              "api/solana/logsunsubscribe",
+              "api/solana/slotsubscribe",
+              "api/solana/slotunsubscribe",
+            ],
+          },
         ],
       },
             {
@@ -639,6 +688,7 @@ module.exports = {
                     '/blockchains/aurora',
                     '/blockchains/solana',
                     '/blockchains/gnosis',
+                    '/blockchains/cronos',
                     '/blockchains/fantom',
                     '/blockchains/starknet',
                     '/blockchains/harmony',
@@ -660,6 +710,7 @@ module.exports = {
                     '/glossary/blockchain-protocol',
                     '/glossary/bolt',
                     '/glossary/cft',
+                    '/glossary/chainstack-cloud',
                     '/glossary/cloud',
                     '/glossary/consortium-project',
                     '/glossary/consortium',

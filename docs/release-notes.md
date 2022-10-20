@@ -6,7 +6,62 @@ meta:
     content: release notes version blockchain cloud protocol
 ---
 
+
 # Release notes
+
+## Chainstack 3.5.8
+
+ *October 14, 2022*
+
+### What's new
+
+* **Protocols**. [Cronos](/operations/cronos/networks) support.
+* **Documentation**. [Cronos](/operations/cronos).
+
+## Chainstack 3.5.7
+
+*October 12, 2022*
+
+### What's new
+
+* **Clouds**. You can now deploy your elastics Solana nodes using the new hosting option—[Chainstack Cloud](/glossary/chainstack-cloud) in the Netherlands region.
+
+## Chainstack 3.5.6
+
+*October 3, 2022*
+
+### What's new
+
+* **Protocols**. Ethereum [Sepolia testnet support](/operations/ethereum/networks) for full nodes.
+* **Documentation**. Solana API [reference](/api/solana/solana-api-reference).
+
+## Chainstack 3.5.5
+
+*October 3, 2022*
+
+### What's new
+
+* **APIs**.
+  * [Debug and trace APIs](/operations/polygon/debug-and-trace-apis) for elastic Polygon archive nodes.
+  * [Debug and trace APIs](/operations/avalanche/debug-and-trace-apis) for elastic Avalanche archive nodes.
+
+### Bug fixes
+
+* Numerous bug fixes and stability improvements.
+
+## Chainstack 3.5.1
+
+*September 15, 2022*
+
+### What's new
+
+* **Protocols**. [Ethereum](/operations/ethereum/networks) consensus layer Beacon Chain support due to the Merge.
+* **APIs**. [Ethereum consensus layer Beacon Chain API](/api/ethereum/ethereum-api-reference).
+* **Documentation**. Beacon Chain API [reference](/api/ethereum/ethereum-api-reference) added to Ethereum API reference.
+
+### Bug fixes
+
+* Numerous bug fixes and stability improvements.
 
 ## Chainstack 3.5
 
@@ -280,7 +335,7 @@ See also <a href="https://chainstack.com/chainstack-2-3-faster-and-better-public
 
 ### What's new
 
-* **Billing**. You can now reattempt past due payments through billing card change or directly in the activity log. The activity log also provides more information on your billing events. 
+* **Billing**. You can now reattempt past due payments through billing card change or directly in the activity log. The activity log also provides more information on your billing events.
 
 ### Bug fixes
 
